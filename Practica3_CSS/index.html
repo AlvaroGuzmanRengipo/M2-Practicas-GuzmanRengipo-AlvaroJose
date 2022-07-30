@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>FullStack</h1>
+        <h2>Formulario de Registro</h2>
+    </header>
+    <main>
+        <form action="">
+            <fieldset>
+                <legend><b>¿QUIEN ERES?</b></legend>
+                <label for="name">Nombre <br>
+                    <input type="text" name="name" id="name">
+                </label><br>
+                <label for="apel">Apellido <br>
+                    <input type="text" name="apel" id="apel">
+                </label><br>
+                <label for="date">Fecha de Nacimiento <br>
+                    <input type="date" name="date" id="date">
+                </label>
+            </fieldset>
+        </form>
+
+        <form action="">
+            <fieldset>
+                <legend><b>¿DE DONDE ERES?</b></legend>
+                <label for="ciudad">Ciudad <br>
+                    <input type="text">
+                </label><br>
+                <label for="cp">Codigo Postal <br>
+                    <input type="number" name="cp" id="cp">
+                </label><br>
+                <label for="pais">Pais <br>
+                    <select name="pais" id="pais">
+                        <option value="argentina" selected>Argentina</option>
+                        <option value="chile">Chile</option>
+                        <option value="bolivia">Bolivia</option>
+                        <option value="paraguay">Paraguay</option>
+                        <option value="paraguay">Uruguay</option>
+                        <option value="paraguay">Brasil</option>
+                    </select>
+                </label>
+            </fieldset>
+        </form>
+        <form action="">
+            <fieldset>
+                <legend><b>¿COMO QUIERES INICIAR SESION?</b></legend>
+                <label for="nameUs">Nombre de Usuario <br>
+                    <input type="text" name="nameUs" id="nameUs">
+                </label><br>
+                <label for="pass">Contraseña <br>
+                    <input type="password" name="pass" id="pass">
+                </label><br>
+                <label for="pass2">Vuelve a escribir la contraseña <br>
+                    <input type="password" name="pass2" id="pass2">
+                </label><br>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <label for="checkbox">
+            <input type="checkbox" name="checkbox" id="checkbox">
+            Acepto el acuerdo de servicios
+        </label><br>
+        <label for="butt">
+            <input type="button" id="butt" value="Crear cuenta">
+        </label>
+    </footer>
+</body>
+
+</html>
